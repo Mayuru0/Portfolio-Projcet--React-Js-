@@ -4,6 +4,7 @@ import Porfile from './Components/Profile'
 import Skills from './Components/Skills'
 import About from './Components/About'
 import Project from './Components/Project'
+import Contact from './Components/Contact'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
    <Skills/>
    <About/>
    <Project/>
+   <Contact/>
    
    
    </>

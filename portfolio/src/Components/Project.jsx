@@ -10,13 +10,12 @@ const Project = () => {
 
      <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-    <div className='transform translate-transform duration-300 hover:scale-105 overflow-hidden
-    shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative'>
+     <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center h-[200px] bg-cover relative'>
      
-    <img src={project} layout="fill" objectFit="cover" alt=""/>
+    <img src={project} className='w-full h-full md:hover:bg-red-900'  />
     
     <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-    <span className='text-2xl font-bold text-white tracking-wider'></span>
+    <span className='text-2xl font-bold text-white tracking-wider'>Project</span>
 
     <div className='pt-8 text-center'>
         <a href="#">
