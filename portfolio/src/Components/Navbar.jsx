@@ -13,7 +13,7 @@ const Navbar = () => {
       <h1 className='text-3xl font-bold primary ml-4 font-mono'>MAYURU MADHURANGA</h1>
       <ul className='hidden md:flex'>
         <li className='p-5'><a href=''>   About </a></li>
-        <li className='p-5'> <a href=''></a>Skills</li>
+        <li className='p-5'> <a href=''> Skills </a></li>
         <li className='p-5'><a href=''>Project </a></li>
         <li className='p-5'><a href=''>Contact </a></li>
       </ul>
@@ -26,10 +26,10 @@ const Navbar = () => {
         <h1 className='text-3xl font-bold primary ml-4'>Mayuru Madhuranga</h1>
         <ul className='p-5'>
           <li className='p-5'> <a href=''> Home </a> </li>
-          <li className='p-5'><a href=''>   About </a></li>
-        <li className='p-5'> <a href=''></a>Skills</li>
-        <li className='p-5'><a href=''>Project </a></li>
-        <li className='p-5'><a href=''>Contact </a></li>
+          <li className='p-5'><a href=''>  About </a></li>
+        <li className='p-5'> <a href=''> Skills </a></li>
+        <li className='p-5'><a href=''> Project </a></li>
+        <li className='p-5'><a href=''> Contact </a></li>
         </ul>
       </div>
     </div>
