@@ -12,8 +12,8 @@ const Navbar = () => {
     <div className='bg-black h-[100px] text-gray-400 max-w-[1200px] mx-auto flex justify-between items-center'>
       <h1 className='text-3xl font-bold primary ml-4 font-mono'>MAYURU MADHURANGA</h1>
       <ul className='hidden md:flex'>
+      <li className='p-5'> <a href=''> Skills </a></li>
         <li className='p-5'><a href=''>   About </a></li>
-        <li className='p-5'> <a href=''> Skills </a></li>
         <li className='p-5'><a href=''>Project </a></li>
         <li className='p-5'><a href=''>Contact </a></li>
       </ul>
@@ -25,9 +25,9 @@ const Navbar = () => {
       <div className={nav ? 'fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500' : 'fixed left-[-100%] top-0 h-full ease-in-out duration-500'}>
         <h1 className='text-3xl font-bold primary ml-4'>Mayuru Madhuranga</h1>
         <ul className='p-5'>
-          <li className='p-5'> <a href=''> Home </a> </li>
-          <li className='p-5'><a href=''>  About </a></li>
+          <li className='p-5'> <a href=''> Home </a> </li>  
         <li className='p-5'> <a href=''> Skills </a></li>
+        <li className='p-5'><a href=''>  About </a></li>
         <li className='p-5'><a href=''> Project </a></li>
         <li className='p-5'><a href=''> Contact </a></li>
         </ul>
