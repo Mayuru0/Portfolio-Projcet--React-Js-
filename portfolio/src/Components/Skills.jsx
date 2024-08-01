@@ -7,7 +7,7 @@ import tailwind from '../assets/tailwind.png';
 const Skills = () => {
   return (
     <div className='bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-6
-    place-items-center md:flex md:justify-center'>
+    place-items-center md:flex md:justify-center' id='skills'>
 
          <h2 className='text-gray-700 text-2xl md:text-4xl font-bold m-4'>My <br/> Stack
          </h2>

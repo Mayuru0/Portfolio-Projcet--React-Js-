@@ -2,7 +2,7 @@ import React from 'react'
 import project from '../assets/project.png';
 const Project = () => {
   return (
-    <div className='max-w-[1200px] mx-auto p-5'>
+    <div className='max-w-[1200px] mx-auto p-5' id='project'>
         <div className='pb-8'>
             <p className='text-4xl mb-3 font-bold primary'>My Projects</p>
             <p className='text-gray-400'>Check out some of my recent work</p>
@@ -10,7 +10,7 @@ const Project = () => {
 
      <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-     <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center h-[200px] bg-cover relative'>
+     <div className=' duration-300 hover:scale-105 overflow-hidden shadow-lg hadow-[#040c16] group container rounded-md flex justify-center items-center h-[200px] bg-cover  '>
      
     <img src={project} className='w-full h-full md:hover:bg-red-900'  />
     
