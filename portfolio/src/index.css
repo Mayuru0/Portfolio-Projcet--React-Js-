@@ -18,5 +18,5 @@ body {
   }
   
   .bg-primary-color {
-    @apply bg-gradient-to-r from-orange-400 to-pink-600  inline-block;
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500 inline-block;
   }

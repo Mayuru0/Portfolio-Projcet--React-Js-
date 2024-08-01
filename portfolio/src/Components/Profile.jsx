@@ -28,12 +28,7 @@ const Profile = () => {
         />
        
          <p className='text-white sm:text-lg my-6  lg:text-xl'>
-          I am currently a dedicated and proficient learner pursuing a Higher
-          National Diploma in Information Technology, actively seeking an
-          internship opportunity to fulfill my diploma requirements. With a
-          strong background in various programming languages and
-          development tools, my goal is to contribute to the success and growth
-          of a fast-paced firm.
+          I'm Mayuru Madhuranga and I am looking for internship as Full-Stack developer or UI/UX Developer
          </p>
 
          <div className='my-8' >
